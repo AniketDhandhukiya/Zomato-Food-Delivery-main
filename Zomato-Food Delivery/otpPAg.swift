@@ -12,18 +12,24 @@ class otpPAg: UIViewController {
     
     var otpArray = ["5625","5325","4679","5164","9652","5346","9564","2549","7921","5652","7941","6794","5613","7894","8945","1597"]
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
     
     @IBOutlet weak var otpView: DPOTPView!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    
+    }
+    
     @IBAction func otpContinueAction(_ sender: Any) {
-        if (otpArray.randomElement() != nil) == otpView.validate(){
-            let nv = storyboard?.instantiateViewController(withIdentifier: "zomatoMainPag") as! zomatoMainPag
-            navigationController?.pushViewController(nv, animated: true)
+        if otpView.text == "" {
+            let alert = UIAlertController.init(title: "OTP", message: "Please Enter a OTP", preferredStyle: .alert)
+            alert.addAction(UIAlertAction.init(title: "OK", style: .default, handler: nil))
+            present(alert, animated: true, completion: nil)
         }
+//        if (otpArray.randomElement() != nil) == otpView.validate(){
+//            let nv = storyboard?.instantiateViewController(withIdentifier: "zomatoMainPag") as! zomatoMainPag
+//            navigationController?.pushViewController(nv, animated: true)
+//        }
         
       
     }

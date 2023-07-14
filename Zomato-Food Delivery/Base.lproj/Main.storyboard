@@ -870,7 +870,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xG-Vn-P2W">
-                                <rect key="frame" x="86" y="860" width="84" height="18"/>
+                                <rect key="frame" x="86.666666666666686" y="860" width="84" height="18"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Terms of Service">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="7"/>
@@ -2284,7 +2284,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YT8-tA-eP7">
-                                <rect key="frame" x="20" y="120" width="390" height="757"/>
+                                <rect key="frame" x="20" y="120" width="136.66666666666666" height="757"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="757" id="JdG-p0-9cy"/>
@@ -2503,7 +2503,7 @@ Mint Hill, NC 28227
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcl-5T-CBq">
-                                <rect key="frame" x="20" y="88" width="390" height="24"/>
+                                <rect key="frame" x="20" y="88" width="136.66666666666666" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="LMz-mB-5Sd"/>
                                     <constraint firstAttribute="width" constant="374" id="fQN-rI-O8l"/>
